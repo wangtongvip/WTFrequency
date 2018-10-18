@@ -1,0 +1,462 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		740E57042177357D00EDF390 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 740E57032177357D00EDF390 /* AppDelegate.m */; };
+		740E57072177357D00EDF390 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 740E57062177357D00EDF390 /* ViewController.m */; };
+		740E570A2177357D00EDF390 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 740E57082177357D00EDF390 /* Main.storyboard */; };
+		740E570C2177357E00EDF390 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 740E570B2177357E00EDF390 /* Assets.xcassets */; };
+		740E570F2177357E00EDF390 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 740E570D2177357E00EDF390 /* LaunchScreen.storyboard */; };
+		740E57122177357E00EDF390 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 740E57112177357E00EDF390 /* main.m */; };
+		740E5722217736B000EDF390 /* WT_HZ.mm in Sources */ = {isa = PBXBuildFile; fileRef = 740E571C217736AF00EDF390 /* WT_HZ.mm */; };
+		740E5723217736B000EDF390 /* WTaudio.mm in Sources */ = {isa = PBXBuildFile; fileRef = 740E571F217736B000EDF390 /* WTaudio.mm */; };
+		740E5724217736B000EDF390 /* FFTHelper.mm in Sources */ = {isa = PBXBuildFile; fileRef = 740E5721217736B000EDF390 /* FFTHelper.mm */; };
+		740E5727217736BA00EDF390 /* UIColor+getColorAddition.m in Sources */ = {isa = PBXBuildFile; fileRef = 740E5726217736BA00EDF390 /* UIColor+getColorAddition.m */; };
+		740E572D217736C500EDF390 /* HZArray.plist in Resources */ = {isa = PBXBuildFile; fileRef = 740E5728217736C500EDF390 /* HZArray.plist */; };
+		740E572E217736C500EDF390 /* Tuner_Metronome_Background.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 740E5729217736C500EDF390 /* Tuner_Metronome_Background.jpg */; };
+		740E572F217736C500EDF390 /* correct_HZArray.plist in Resources */ = {isa = PBXBuildFile; fileRef = 740E572A217736C500EDF390 /* correct_HZArray.plist */; };
+		740E5730217736C500EDF390 /* standerd_note.plist in Resources */ = {isa = PBXBuildFile; fileRef = 740E572B217736C500EDF390 /* standerd_note.plist */; };
+		740E5731217736C500EDF390 /* tools_soundSetting_pin.png in Resources */ = {isa = PBXBuildFile; fileRef = 740E572C217736C500EDF390 /* tools_soundSetting_pin.png */; };
+		740E5735217736D400EDF390 /* SetSoundViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 740E5732217736D400EDF390 /* SetSoundViewController.mm */; };
+		740E57382177372A00EDF390 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 740E57372177372A00EDF390 /* AVFoundation.framework */; };
+		740E573B217737FD00EDF390 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 740E573A217737FD00EDF390 /* AudioToolbox.framework */; };
+		740E573D2177388700EDF390 /* libstdc++.6.0.9.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 740E573C2177388700EDF390 /* libstdc++.6.0.9.dylib */; };
+		740E573F217738AA00EDF390 /* libz.1.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 740E573E217738AA00EDF390 /* libz.1.dylib */; };
+		740E5743217738F300EDF390 /* libicucore.A.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 740E5742217738F300EDF390 /* libicucore.A.dylib */; };
+		740E57452177393300EDF390 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 740E57442177393300EDF390 /* libsqlite3.dylib */; };
+		740E57472177396700EDF390 /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 740E57462177396700EDF390 /* Accelerate.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		740E56FF2177357D00EDF390 /* WTFrequency.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WTFrequency.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		740E57022177357D00EDF390 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		740E57032177357D00EDF390 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		740E57052177357D00EDF390 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		740E57062177357D00EDF390 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		740E57092177357D00EDF390 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		740E570B2177357E00EDF390 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		740E570E2177357E00EDF390 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		740E57102177357E00EDF390 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		740E57112177357E00EDF390 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		740E571B217736AF00EDF390 /* WTaudio.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WTaudio.h; sourceTree = "<group>"; };
+		740E571C217736AF00EDF390 /* WT_HZ.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = WT_HZ.mm; sourceTree = "<group>"; };
+		740E571D217736AF00EDF390 /* WTdef.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WTdef.h; sourceTree = "<group>"; };
+		740E571E217736AF00EDF390 /* WT_HZ.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WT_HZ.h; sourceTree = "<group>"; };
+		740E571F217736B000EDF390 /* WTaudio.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = WTaudio.mm; sourceTree = "<group>"; };
+		740E5720217736B000EDF390 /* FFTHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FFTHelper.h; sourceTree = "<group>"; };
+		740E5721217736B000EDF390 /* FFTHelper.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = FFTHelper.mm; sourceTree = "<group>"; };
+		740E5725217736BA00EDF390 /* UIColor+getColorAddition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+getColorAddition.h"; sourceTree = "<group>"; };
+		740E5726217736BA00EDF390 /* UIColor+getColorAddition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+getColorAddition.m"; sourceTree = "<group>"; };
+		740E5728217736C500EDF390 /* HZArray.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = HZArray.plist; sourceTree = "<group>"; };
+		740E5729217736C500EDF390 /* Tuner_Metronome_Background.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Tuner_Metronome_Background.jpg; sourceTree = "<group>"; };
+		740E572A217736C500EDF390 /* correct_HZArray.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = correct_HZArray.plist; sourceTree = "<group>"; };
+		740E572B217736C500EDF390 /* standerd_note.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = standerd_note.plist; sourceTree = "<group>"; };
+		740E572C217736C500EDF390 /* tools_soundSetting_pin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tools_soundSetting_pin.png; sourceTree = "<group>"; };
+		740E5732217736D400EDF390 /* SetSoundViewController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = SetSoundViewController.mm; sourceTree = "<group>"; };
+		740E5733217736D400EDF390 /* Configer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Configer.h; sourceTree = "<group>"; };
+		740E5734217736D400EDF390 /* SetSoundViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SetSoundViewController.h; sourceTree = "<group>"; };
+		740E57372177372A00EDF390 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		740E57392177375900EDF390 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		740E573A217737FD00EDF390 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		740E573C2177388700EDF390 /* libstdc++.6.0.9.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libstdc++.6.0.9.dylib"; path = "../../../../usr/lib/libstdc++.6.0.9.dylib"; sourceTree = "<group>"; };
+		740E573E217738AA00EDF390 /* libz.1.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.1.dylib; path = ../../../../usr/lib/libz.1.dylib; sourceTree = "<group>"; };
+		740E5742217738F300EDF390 /* libicucore.A.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libicucore.A.dylib; path = ../../../../usr/lib/libicucore.A.dylib; sourceTree = "<group>"; };
+		740E57442177393300EDF390 /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = ../../../../usr/lib/libsqlite3.dylib; sourceTree = "<group>"; };
+		740E57462177396700EDF390 /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = System/Library/Frameworks/Accelerate.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		740E56FC2177357D00EDF390 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				740E57472177396700EDF390 /* Accelerate.framework in Frameworks */,
+				740E57452177393300EDF390 /* libsqlite3.dylib in Frameworks */,
+				740E5743217738F300EDF390 /* libicucore.A.dylib in Frameworks */,
+				740E573F217738AA00EDF390 /* libz.1.dylib in Frameworks */,
+				740E573D2177388700EDF390 /* libstdc++.6.0.9.dylib in Frameworks */,
+				740E573B217737FD00EDF390 /* AudioToolbox.framework in Frameworks */,
+				740E57382177372A00EDF390 /* AVFoundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		740E56F62177357D00EDF390 = {
+			isa = PBXGroup;
+			children = (
+				740E57012177357D00EDF390 /* WTFrequency */,
+				740E57002177357D00EDF390 /* Products */,
+				740E57362177372A00EDF390 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		740E57002177357D00EDF390 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				740E56FF2177357D00EDF390 /* WTFrequency.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		740E57012177357D00EDF390 /* WTFrequency */ = {
+			isa = PBXGroup;
+			children = (
+				740E57192177369700EDF390 /* WTFrequency */,
+				740E571A2177369700EDF390 /* Tools */,
+				740E57182177369700EDF390 /* Resource */,
+				740E57022177357D00EDF390 /* AppDelegate.h */,
+				740E57032177357D00EDF390 /* AppDelegate.m */,
+				740E57052177357D00EDF390 /* ViewController.h */,
+				740E57062177357D00EDF390 /* ViewController.m */,
+				740E5734217736D400EDF390 /* SetSoundViewController.h */,
+				740E5732217736D400EDF390 /* SetSoundViewController.mm */,
+				740E5733217736D400EDF390 /* Configer.h */,
+				740E57082177357D00EDF390 /* Main.storyboard */,
+				740E570B2177357E00EDF390 /* Assets.xcassets */,
+				740E570D2177357E00EDF390 /* LaunchScreen.storyboard */,
+				740E57102177357E00EDF390 /* Info.plist */,
+				740E57112177357E00EDF390 /* main.m */,
+				740E57392177375900EDF390 /* PrefixHeader.pch */,
+			);
+			path = WTFrequency;
+			sourceTree = "<group>";
+		};
+		740E57182177369700EDF390 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				740E572A217736C500EDF390 /* correct_HZArray.plist */,
+				740E5728217736C500EDF390 /* HZArray.plist */,
+				740E572B217736C500EDF390 /* standerd_note.plist */,
+				740E572C217736C500EDF390 /* tools_soundSetting_pin.png */,
+				740E5729217736C500EDF390 /* Tuner_Metronome_Background.jpg */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		740E57192177369700EDF390 /* WTFrequency */ = {
+			isa = PBXGroup;
+			children = (
+				740E5720217736B000EDF390 /* FFTHelper.h */,
+				740E5721217736B000EDF390 /* FFTHelper.mm */,
+				740E571E217736AF00EDF390 /* WT_HZ.h */,
+				740E571C217736AF00EDF390 /* WT_HZ.mm */,
+				740E571B217736AF00EDF390 /* WTaudio.h */,
+				740E571F217736B000EDF390 /* WTaudio.mm */,
+				740E571D217736AF00EDF390 /* WTdef.h */,
+			);
+			path = WTFrequency;
+			sourceTree = "<group>";
+		};
+		740E571A2177369700EDF390 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				740E5725217736BA00EDF390 /* UIColor+getColorAddition.h */,
+				740E5726217736BA00EDF390 /* UIColor+getColorAddition.m */,
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		740E57362177372A00EDF390 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				740E57462177396700EDF390 /* Accelerate.framework */,
+				740E57442177393300EDF390 /* libsqlite3.dylib */,
+				740E5742217738F300EDF390 /* libicucore.A.dylib */,
+				740E573E217738AA00EDF390 /* libz.1.dylib */,
+				740E573C2177388700EDF390 /* libstdc++.6.0.9.dylib */,
+				740E573A217737FD00EDF390 /* AudioToolbox.framework */,
+				740E57372177372A00EDF390 /* AVFoundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		740E56FE2177357D00EDF390 /* WTFrequency */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 740E57152177357E00EDF390 /* Build configuration list for PBXNativeTarget "WTFrequency" */;
+			buildPhases = (
+				740E56FB2177357D00EDF390 /* Sources */,
+				740E56FC2177357D00EDF390 /* Frameworks */,
+				740E56FD2177357D00EDF390 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WTFrequency;
+			productName = WTFrequency;
+			productReference = 740E56FF2177357D00EDF390 /* WTFrequency.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		740E56F72177357D00EDF390 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = "王通";
+				TargetAttributes = {
+					740E56FE2177357D00EDF390 = {
+						CreatedOnToolsVersion = 10.0;
+					};
+				};
+			};
+			buildConfigurationList = 740E56FA2177357D00EDF390 /* Build configuration list for PBXProject "WTFrequency" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 740E56F62177357D00EDF390;
+			productRefGroup = 740E57002177357D00EDF390 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				740E56FE2177357D00EDF390 /* WTFrequency */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		740E56FD2177357D00EDF390 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				740E572D217736C500EDF390 /* HZArray.plist in Resources */,
+				740E572F217736C500EDF390 /* correct_HZArray.plist in Resources */,
+				740E5731217736C500EDF390 /* tools_soundSetting_pin.png in Resources */,
+				740E5730217736C500EDF390 /* standerd_note.plist in Resources */,
+				740E570F2177357E00EDF390 /* LaunchScreen.storyboard in Resources */,
+				740E570C2177357E00EDF390 /* Assets.xcassets in Resources */,
+				740E572E217736C500EDF390 /* Tuner_Metronome_Background.jpg in Resources */,
+				740E570A2177357D00EDF390 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		740E56FB2177357D00EDF390 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				740E5724217736B000EDF390 /* FFTHelper.mm in Sources */,
+				740E5723217736B000EDF390 /* WTaudio.mm in Sources */,
+				740E5722217736B000EDF390 /* WT_HZ.mm in Sources */,
+				740E5727217736BA00EDF390 /* UIColor+getColorAddition.m in Sources */,
+				740E57072177357D00EDF390 /* ViewController.m in Sources */,
+				740E5735217736D400EDF390 /* SetSoundViewController.mm in Sources */,
+				740E57122177357E00EDF390 /* main.m in Sources */,
+				740E57042177357D00EDF390 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		740E57082177357D00EDF390 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				740E57092177357D00EDF390 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		740E570D2177357E00EDF390 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				740E570E2177357E00EDF390 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		740E57132177357E00EDF390 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		740E57142177357E00EDF390 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		740E57162177357E00EDF390 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZV6KMU8GR8;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/WTFrequency/PrefixHeader.pch";
+				INFOPLIST_FILE = WTFrequency/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = WT.WTFrequency;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		740E57172177357E00EDF390 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZV6KMU8GR8;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/WTFrequency/PrefixHeader.pch";
+				INFOPLIST_FILE = WTFrequency/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = WT.WTFrequency;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		740E56FA2177357D00EDF390 /* Build configuration list for PBXProject "WTFrequency" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				740E57132177357E00EDF390 /* Debug */,
+				740E57142177357E00EDF390 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		740E57152177357E00EDF390 /* Build configuration list for PBXNativeTarget "WTFrequency" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				740E57162177357E00EDF390 /* Debug */,
+				740E57172177357E00EDF390 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 740E56F72177357D00EDF390 /* Project object */;
+}
