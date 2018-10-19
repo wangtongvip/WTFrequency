@@ -46,7 +46,7 @@
 >> 
 >> 高版本的Xcode找不到`libstdc++.6.0.9.dylib`库，可以手动下载并导入：
 >> 
->> 1） 下载链接：[https://pan.baidu.com/s/1jxYTmk-F02G6jM46dwjHXA]()  密码:v6ti
+>> 1） 下载链接：[https://pan.baidu.com/s/1p9Y782wuwe5W_pjsSV4xrg](https://pan.baidu.com/s/1p9Y782wuwe5W_pjsSV4xrg) 密码:tnrq
 >> 
 >> 2） 导入方法：将下载的库拷贝到如下路径
 >> 
