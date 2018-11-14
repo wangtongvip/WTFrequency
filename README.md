@@ -58,6 +58,6 @@
 >> /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator.sdk/usr/lib/
 >> ```
 >> 
->> 3） 使用导入的库：Project - Targets - Build Phases - Link Binary With Libraries - add - Add Other - 键盘点击 command + sift + G - 寻址路径中输入 /usr/lib - 找到你需要的依赖库选中添加。
+>> 3） 如何使用导入的库：Project - Targets - Build Phases - Link Binary With Libraries - add - Add Other - 键盘点击 command + sift + G - 寻址路径中输入 /usr/lib - 找到你需要的依赖库选中添加。
 >> 
 >> 由于ios系统目前已经淘汰 .dylib 为后缀的库，统一改用 .tdb ，所以需要依赖 .dylib 的库，也可以按照 3）中的方法设置依赖。
